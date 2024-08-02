@@ -176,7 +176,7 @@ nav ul li a:hover::after{
 
 .services-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -282,7 +282,12 @@ nav ul li a:hover::after{
 .work:hover .layer{
     height: 100%;
 }
-
+.btn-container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 2.5vh; /* Add some spacing above the button */
+}
 .btn{
     display: block;
     margin: 50px, auto;
